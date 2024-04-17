@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+body{
+    background-color: midnightblue;
+
+}
+
+#btn{ 
+    margin: 300px 700px;
+    padding:8px ;
+    border-radius: 15px;
+    background:linear-gradient(to bottom right,red,darkred);
+    box-shadow: 1px 1px 8px 2px red;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    user-select: none;
+}
+#btn:active{
+    background:linear-gradient(to top left,red,darkred);
+}
+
+.fly_btn{
+    cursor: pointer;
+    padding: 7px 12px;
+    box-shadow: 1px 1px 8px 1px white;
+    right: 20px;
+    bottom: 20px;
+    transition: 9s;
+    border-radius: 10px;
+    font-size: 15px;
+    position: absolute;
+}
+
+
